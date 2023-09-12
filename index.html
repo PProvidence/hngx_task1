@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>My Web Page</h1>
     <div class="container">
         <!-- Slack Name -->
         <h2 data-testid="slackUserName">Providence Oduok</h2>
@@ -14,16 +13,16 @@
         <img src="profile.jpg" alt="Providence Oduok" data-testid="slackDisplayImage">
         
         <!-- Current Day of the Week -->
-        <p data-testid="currentDayOfTheWeek"></p>
-        
+        <p id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek"></p>
+
         <!-- Current UTC Time -->
-        <p data-testid="currentUTCTime"></p>
-        
+        <p id="currentUTCTime" data-testid="currentUTCTime"></p>
+
         <!-- Track -->
         <p data-testid="myTrack">Frontend</p>
         
         <!-- GitHub URL -->
-        <p data-testid="githubURL"><a href="https://github.com/PProvidence">GitHub Repository</a></p>
+        <a data-testid="githubURL" href="https://github.com/PProvidence/hngx_task1" target="_blank">GitHub Repository</a>
     </div>
 
     <!-- JavaScript to update the current day of the week and UTC time -->
